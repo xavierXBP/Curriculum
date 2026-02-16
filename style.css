@@ -419,8 +419,17 @@ html {
 .contact-links {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px; /* separación vertical entre botones */
 }
+
+.contact-link-item a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+}
+
 
 .contact-link-item {
   background: rgba(30, 30, 50, 0.6);
