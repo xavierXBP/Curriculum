@@ -431,6 +431,20 @@ html {
 }
 
 
+
+
+.direct-contact a {
+  color: #d946ef; 
+  text-decoration: none; 
+  transition: all 0.3s ease;
+}
+
+.direct-contact a:hover {
+  color: #a855f7; 
+}
+
+
+
 .contact-link-item {
   background: rgba(30, 30, 50, 0.6);
   border: 1px solid rgba(217, 70, 239, 0.2);
